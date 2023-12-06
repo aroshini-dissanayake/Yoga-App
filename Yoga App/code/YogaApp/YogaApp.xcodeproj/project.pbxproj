@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F61A269D29F1B35300BBD0FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61A269C29F1B35300BBD0FF /* AppDelegate.swift */; };
+		F61A269F29F1B35300BBD0FF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61A269E29F1B35300BBD0FF /* SceneDelegate.swift */; };
+		F61A26A429F1B35300BBD0FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F61A26A229F1B35300BBD0FF /* Main.storyboard */; };
+		F61A26A729F1B35300BBD0FF /* YogaApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F61A26A529F1B35300BBD0FF /* YogaApp.xcdatamodeld */; };
+		F61A26A929F1B35400BBD0FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F61A26A829F1B35400BBD0FF /* Assets.xcassets */; };
+		F61A26AC29F1B35400BBD0FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F61A26AA29F1B35400BBD0FF /* LaunchScreen.storyboard */; };
+		F61A26D729F1F42500BBD0FF /* AddTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61A26D629F1F42500BBD0FF /* AddTaskViewController.swift */; };
+		F61A26E229F1F89300BBD0FF /* YogaEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61A26E029F1F89300BBD0FF /* YogaEntity+CoreDataClass.swift */; };
+		F61A26E329F1F89300BBD0FF /* YogaEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61A26E129F1F89300BBD0FF /* YogaEntity+CoreDataProperties.swift */; };
+		F61A26E529F1F8BA00BBD0FF /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61A26E429F1F8BA00BBD0FF /* DBManager.swift */; };
+		F66A738729F2DB9200DF3A2C /* YogaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66A738629F2DB9200DF3A2C /* YogaViewController.swift */; };
+		F66A738929F2DF6C00DF3A2C /* PendingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66A738829F2DF6C00DF3A2C /* PendingViewController.swift */; };
+		F66A738B29F2DF7F00DF3A2C /* PendingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66A738A29F2DF7F00DF3A2C /* PendingTableViewCell.swift */; };
+		F66A738D29F2E81E00DF3A2C /* EditTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66A738C29F2E81E00DF3A2C /* EditTaskViewController.swift */; };
+		F66A738F29F2E8C800DF3A2C /* SpecificTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66A738E29F2E8C800DF3A2C /* SpecificTaskViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F61A269929F1B35300BBD0FF /* YogaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YogaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F61A269C29F1B35300BBD0FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F61A269E29F1B35300BBD0FF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F61A26A329F1B35300BBD0FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F61A26A629F1B35300BBD0FF /* YogaApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = YogaApp.xcdatamodel; sourceTree = "<group>"; };
+		F61A26A829F1B35400BBD0FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F61A26AB29F1B35400BBD0FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F61A26AD29F1B35400BBD0FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F61A26D629F1F42500BBD0FF /* AddTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskViewController.swift; sourceTree = "<group>"; };
+		F61A26E029F1F89300BBD0FF /* YogaEntity+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "YogaEntity+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		F61A26E129F1F89300BBD0FF /* YogaEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "YogaEntity+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		F61A26E429F1F8BA00BBD0FF /* DBManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBManager.swift; sourceTree = "<group>"; };
+		F66A738629F2DB9200DF3A2C /* YogaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YogaViewController.swift; sourceTree = "<group>"; };
+		F66A738829F2DF6C00DF3A2C /* PendingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PendingViewController.swift; sourceTree = "<group>"; };
+		F66A738A29F2DF7F00DF3A2C /* PendingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PendingTableViewCell.swift; sourceTree = "<group>"; };
+		F66A738C29F2E81E00DF3A2C /* EditTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTaskViewController.swift; sourceTree = "<group>"; };
+		F66A738E29F2E8C800DF3A2C /* SpecificTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecificTaskViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F61A269629F1B35300BBD0FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F61A269029F1B35300BBD0FF = {
+			isa = PBXGroup;
+			children = (
+				F61A269B29F1B35300BBD0FF /* YogaApp */,
+				F61A269A29F1B35300BBD0FF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F61A269A29F1B35300BBD0FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F61A269929F1B35300BBD0FF /* YogaApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F61A269B29F1B35300BBD0FF /* YogaApp */ = {
+			isa = PBXGroup;
+			children = (
+				F65CD46F29F2830000AEBBDE /* Segment */,
+				F61A26E029F1F89300BBD0FF /* YogaEntity+CoreDataClass.swift */,
+				F61A26E129F1F89300BBD0FF /* YogaEntity+CoreDataProperties.swift */,
+				F61A269C29F1B35300BBD0FF /* AppDelegate.swift */,
+				F61A269E29F1B35300BBD0FF /* SceneDelegate.swift */,
+				F61A26A229F1B35300BBD0FF /* Main.storyboard */,
+				F61A26A829F1B35400BBD0FF /* Assets.xcassets */,
+				F61A26AA29F1B35400BBD0FF /* LaunchScreen.storyboard */,
+				F61A26AD29F1B35400BBD0FF /* Info.plist */,
+				F61A26A529F1B35300BBD0FF /* YogaApp.xcdatamodeld */,
+				F61A26E429F1F8BA00BBD0FF /* DBManager.swift */,
+				F66A738629F2DB9200DF3A2C /* YogaViewController.swift */,
+				F61A26D629F1F42500BBD0FF /* AddTaskViewController.swift */,
+				F66A738C29F2E81E00DF3A2C /* EditTaskViewController.swift */,
+				F66A738E29F2E8C800DF3A2C /* SpecificTaskViewController.swift */,
+			);
+			path = YogaApp;
+			sourceTree = "<group>";
+		};
+		F65CD46F29F2830000AEBBDE /* Segment */ = {
+			isa = PBXGroup;
+			children = (
+				F66A738829F2DF6C00DF3A2C /* PendingViewController.swift */,
+				F66A738A29F2DF7F00DF3A2C /* PendingTableViewCell.swift */,
+			);
+			path = Segment;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F61A269829F1B35300BBD0FF /* YogaApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F61A26B029F1B35400BBD0FF /* Build configuration list for PBXNativeTarget "YogaApp" */;
+			buildPhases = (
+				F61A269529F1B35300BBD0FF /* Sources */,
+				F61A269629F1B35300BBD0FF /* Frameworks */,
+				F61A269729F1B35300BBD0FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YogaApp;
+			productName = YogaApp;
+			productReference = F61A269929F1B35300BBD0FF /* YogaApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F61A269129F1B35300BBD0FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					F61A269829F1B35300BBD0FF = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = F61A269429F1B35300BBD0FF /* Build configuration list for PBXProject "YogaApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F61A269029F1B35300BBD0FF;
+			productRefGroup = F61A269A29F1B35300BBD0FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F61A269829F1B35300BBD0FF /* YogaApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F61A269729F1B35300BBD0FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F61A26AC29F1B35400BBD0FF /* LaunchScreen.storyboard in Resources */,
+				F61A26A929F1B35400BBD0FF /* Assets.xcassets in Resources */,
+				F61A26A429F1B35300BBD0FF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F61A269529F1B35300BBD0FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F66A738D29F2E81E00DF3A2C /* EditTaskViewController.swift in Sources */,
+				F61A269D29F1B35300BBD0FF /* AppDelegate.swift in Sources */,
+				F66A738B29F2DF7F00DF3A2C /* PendingTableViewCell.swift in Sources */,
+				F61A26E329F1F89300BBD0FF /* YogaEntity+CoreDataProperties.swift in Sources */,
+				F61A269F29F1B35300BBD0FF /* SceneDelegate.swift in Sources */,
+				F66A738929F2DF6C00DF3A2C /* PendingViewController.swift in Sources */,
+				F66A738F29F2E8C800DF3A2C /* SpecificTaskViewController.swift in Sources */,
+				F61A26E529F1F8BA00BBD0FF /* DBManager.swift in Sources */,
+				F66A738729F2DB9200DF3A2C /* YogaViewController.swift in Sources */,
+				F61A26E229F1F89300BBD0FF /* YogaEntity+CoreDataClass.swift in Sources */,
+				F61A26A729F1B35300BBD0FF /* YogaApp.xcdatamodeld in Sources */,
+				F61A26D729F1F42500BBD0FF /* AddTaskViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F61A26A229F1B35300BBD0FF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F61A26A329F1B35300BBD0FF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F61A26AA29F1B35400BBD0FF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F61A26AB29F1B35400BBD0FF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F61A26AE29F1B35400BBD0FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F61A26AF29F1B35400BBD0FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F61A26B129F1B35400BBD0FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 92C7D79L2W;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = YogaApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aroshini.macbook.YogaApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F61A26B229F1B35400BBD0FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 92C7D79L2W;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = YogaApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aroshini.macbook.YogaApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F61A269429F1B35300BBD0FF /* Build configuration list for PBXProject "YogaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F61A26AE29F1B35400BBD0FF /* Debug */,
+				F61A26AF29F1B35400BBD0FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F61A26B029F1B35400BBD0FF /* Build configuration list for PBXNativeTarget "YogaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F61A26B129F1B35400BBD0FF /* Debug */,
+				F61A26B229F1B35400BBD0FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F61A26A529F1B35300BBD0FF /* YogaApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F61A26A629F1B35300BBD0FF /* YogaApp.xcdatamodel */,
+			);
+			currentVersion = F61A26A629F1B35300BBD0FF /* YogaApp.xcdatamodel */;
+			path = YogaApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F61A269129F1B35300BBD0FF /* Project object */;
+}
